@@ -1,0 +1,91 @@
+
+/* CSS source code for the course example*/
+html {
+  background-color: #869960;
+}
+
+header {
+padding-top: 20px;
+color: #617140;
+  }
+
+  /* Navigation menue*/
+
+  .site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+  }
+
+.site-nav a {
+  display: block;
+  text-decoration:none;
+  color:#617140;
+  padding: 10px 20px;
+  border: 3px solid lightgray;
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  background-color: #e5e9dc;
+}
+
+ .site-nav ul{
+   margin:0;
+   padding:0;
+ }
+
+  .site-nav{
+    margin-top: 20px;
+  }
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 87%;
+}
+.container{
+  background-color: white;
+  max-width: 940px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.content {
+  border-top: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
+}
+
+.mainarea{
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.area2{
+  width: 34%  ;
+  float: left;
+  background-color: lightgray;
+  padding: 20px 40px;
+  box-sizing: border-box;
+
+}
+.fix {
+  clear: both;
+}
+
+
+
+
+
+
+footer .highlight{
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}

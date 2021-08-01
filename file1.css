@@ -1,0 +1,30 @@
+body{
+  background-color: #d2ecf7;
+}
+
+h1{
+  color: blue;
+}
+
+p{
+  color:red;
+}
+
+header p{
+  color:black;
+}
+header h1{
+  color: orange;
+
+}
+footer p{
+  color:green;
+}
+.highlight
+{
+  background-color: yellow;
+}
+footer .highlight{
+  background-color: lightgray;
+  text-align: center;
+}
